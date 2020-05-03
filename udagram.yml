@@ -286,11 +286,12 @@ Resources:
                     #!/bin/bash
                     apt-get update -y
                     apt-get install unzip awscli -y
+                    aws configure set aws_access_key_id *********************
+                    aws configure set aws_secret_access_key ***********************
                     apt-get install apache2 -y
                     systemctl start apache2.service
                     cd /var/www/html
-                    echo "Hello World" > /var/www/html/index.html 
-                    aws s3 cp s3://udacity-demo-1/index.html /var/www/html/index.html                                    
+                    aws s3 cp s3://udacity-demo-app/index.html /var/www/html/index.html                                    
             ImageId: ami-008c6427c8facbe08
             KeyName: udacityKP
             IamInstanceProfile: !Ref ProfileWithRoles

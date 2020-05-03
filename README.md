@@ -12,4 +12,4 @@
 ```./delete.sh udagram```
 
 ## Output URL
-[URL](http://udagr-WebAp-15G6JLP8W3YGI-212169013.us-west-2.elb.amazonaws.com)
+[URL](http://udagr-WebAp-1QVR4FE3P5SCX-210498038.us-west-2.elb.amazonaws.com)
